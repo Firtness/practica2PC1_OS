@@ -1,0 +1,19 @@
+.university-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+mat-card-title-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+mat-card-lg-image {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  border-radius: 8px;
+}
